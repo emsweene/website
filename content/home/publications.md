@@ -9,9 +9,10 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: Recent Publications
+title: Publications
 subtitle: ''
 
+  
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication
@@ -29,6 +30,8 @@ content:
     author: ''
     exclude_featured: true
 design:
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '1'
   # Choose a view for the listings:
   #   1 = List
   #   2 = Compact
@@ -37,6 +40,3 @@ design:
   view: 4
 ---
 
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
